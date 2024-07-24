@@ -1,0 +1,47 @@
+---
+apiVersion: apps/v1
+#apiVersion: v1
+kind: Deployment
+metadata:
+  name: multi-agent-llm-server-workload
+  namespace: azure-iot-operations
+  labels:
+    app: multi-agent-llm-server-workload
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: multi-agent-llm-server-workload
+  template:
+    metadata:
+      labels:
+        app: multi-agent-llm-server-workload
+
+    spec:
+      imagePullSecrets:
+         - name: cctestotdata
+
+      containers:
+        - name: multi-agent-llm-server
+          image: ccselftestacr.azurecr.io/multi-agent-llm-server:v3
+          imagePullPolicy: Always
+          ports:  
+          - containerPort: 5002
+          
+       
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: multi-agent-llm-server-service
+  namespace: azure-iot-operations
+  labels:
+    app: multi-agent-llm-server-workload
+spec:
+  selector:
+    app: multi-agent-llm-server-workload
+  ports:
+    - protocol: TCP
+      port: 5002
+      targetPort: 5002
+  type: LoadBalancer
