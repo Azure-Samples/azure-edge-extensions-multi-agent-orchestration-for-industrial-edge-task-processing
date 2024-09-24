@@ -45,7 +45,7 @@ It's worth mentioning that in this sample we are using the [RAG-on-Edge Applicat
 
 ## Demo Video
 
-[Demo video link](https://microsoftapc-my.sharepoint.com/:v:/g/personal/chencheng_microsoft_com/Ee0tsXrj_SNJjoHR-mXJ5KEBgsAM8yPmqLFGxllZ2W3Jow?e=RLUD5M&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[Demo video link](https://microsoftapc-my.sharepoint.com/:v:/g/personal/chencheng_microsoft_com/ETt_EgoLR-RLmEjHHm1g_-IBnrZW7iOJhmKHyN71RFkEZw?e=9Lvj9M&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ## Getting Started
 
